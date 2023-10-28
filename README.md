@@ -1,5 +1,9 @@
 # Hit Saber
 
+## WIP
+
+https://youtu.be/1bJSK-3MMjY
+
 ## DEMO
 
 ## Phase 1: Music Selection and Conceptualization
