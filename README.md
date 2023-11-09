@@ -1,18 +1,48 @@
 # Hit Saber
 
-## WIP
-
-https://youtu.be/1bJSK-3MMjY
-
-https://youtu.be/WyRjtOE3s9k
-
-https://youtu.be/ULakozg99vY
-
 ## DEMO
+
+<div align="center">
+    <a href="https://youtu.be/aUlHyvz5wyc?si=x3WUbfo8tZx4KefE">
+        <img src="/ReadmeAssets/Thumbnail 1.png">
+    </a>
+</div>
 
 ## Phase 1: Music Selection and Conceptualization
 
 <!-- Choose a music track and brainstorm initial concepts for your immersive VR music experience. -->
+
+Inspired of following two reference, I decided to design the VR rhythm game where user can slice the cube which flies toward to oneself. The one can have immersive experience of enjoying the song while slashing each cubes to the rhythm.
+
+<blockquote>
+"Believer" is a song by American pop rock band Imagine Dragons.
+</blockquote>
+
+<div align="right">
+    <a href="https://en.wikipedia.org/wiki/Believer_%28Imagine_Dragons_song%29">https://en.wikipedia.org/wiki/Believer_%28Imagine_Dragons_song%29</a>
+</div>
+
+<br>
+
+<p align="center">
+    <img src="/ReadmeAssets/Believer.jpg">
+</p>
+
+<blockquote>
+Beat Saber is a VR rhythm game where you slash the beats of adrenaline-pumping music as they fly towards you, surrounded by a futuristic world.
+</blockquote>
+
+<div align="right">
+    <a href="https://beatsaber.com/">https://beatsaber.com/</a>
+</div>
+
+<br>
+
+<p align="center">
+    <img src="/ReadmeAssets/Beat Saber.jpg">
+</p>
+
+https://store.steampowered.com/app/620980/Beat_Saber/
 
 ## Phase 2: Storyboarding and World Building
 
@@ -36,6 +66,13 @@ https://youtu.be/ULakozg99vY
 
 ### 2. Reference
 
-#### 1) Video
+#### 1) Beat Saber
 
-#### 2) Article
+https://beatsaber.com/  
+https://store.steampowered.com/app/620980/Beat_Saber/
+
+#### 2) Video
+
+#### 3) Article
+
+https://en.wikipedia.org/wiki/Believer_%28Imagine_Dragons_song%29
