@@ -79,12 +79,42 @@ We will build the world refer to the gameplay screenshot of the game "Beat Saber
 - DirectionEnumeration
 - DirectionMaterial
 
+#### 2) Mesh and Material
+
+First, we have to create the mesh of cube by blender. Create rounded cube, manipulate the value of radius and complexity, and export it. We can use the mesh of cube created in blender by importing it in unreal engine as "CubeMesh".
+
+Second, let's create the material of cube. Set suitable value of metalic and roughness, and create two parameter named "Color" and "Glow". They will decide the base color and degree of glowness of the material. Based on the default material named "CubeMaterial", we can create material instances named "CubeMaterialBlack", "CubeMaterialBlue", and "CubeMaterialRed". Manipulate each parameter suitably for each material instances.
+
+#### 3) Blueprint
+
+Third, we have initialize the cube whenever it is created by the spawner. "Initialize" function will create the cuboid or cylinder according to the direction of cube, and set the material of the cube according to the color of the cube.
+
+Fourth, let's make the cube to fly towards to the user. Subtract specific value from the x location of the actor every tick. We can multiply the delta seconds value in order to translate the actor regardless of the frequency that the event tick is called.
+
+Finally, we'll create the "slice" function that slices the procedure mesh of cube in respect to the given plane position and plane normal vector. plane position and plane normal vector is calculated by blade position, blade center position, and cube location vectors. Plane position is as same as the cube location. Plane normal vector approximately equals to cross product of (cube location - blade center position) and (blade center position - blade position) since the vector that is perpendicular to two vectors can be calculated by the cross product of two vectors.
+
+<p align="center">
+    <img src="/ReadmeAssets/Cross Product.jpg" style="width: 50%">
+</p>
+
+Whenever the "slice function" is called, there are some variety of following functions to be executed.
+
+1. Play haptic event to the according controller.
+2. Add Score to the score blueprint.
+3. Simulate physics, enable gravity, add impulse to the two sliced cubes.
+4. Shine the background structures.
+5. Destory the two sliced cubes after some delay.
+
 ### 2. Lane and Spawner
 
 #### 1) Assets
 
 - LaneBlueprint
 - SpawnerBlueprint
+
+#### 2) Mesh and Material
+
+#### 3) Blueprint
 
 ### 3. Lightsaber
 
@@ -93,6 +123,10 @@ We will build the world refer to the gameplay screenshot of the game "Beat Saber
 - LightEnumeration
 - LightsaberBlueBlueprint
 - LightsaberRedBlueprint
+
+#### 2) Mesh and Material
+
+#### 3) Blueprint
 
 ### 4. Floor and Light
 
@@ -105,11 +139,19 @@ We will build the world refer to the gameplay screenshot of the game "Beat Saber
 - RailMaterial
 - TempBlueprint
 
+#### 2) Mesh and Material
+
+#### 3) Blueprint
+
 ### 5. Score
 
 #### 1) Assets
 
 - ScoreBlueprint
+
+#### 2) Mesh and Material
+
+#### 3) Blueprint
 
 ## Phase 4: Testing and Refinement
 
