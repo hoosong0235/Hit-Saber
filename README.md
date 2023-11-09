@@ -157,6 +157,8 @@ Finally, change the collision preset of the blade to "OverlapAll", and every tim
 
 #### 2) Blueprint
 
+Light blueprint changes the color of themselves respect to the combo status of the user. It has two functions, named "StartShine" and "EndShine". Whenever the slice function of the cube is called, "StartShine" function is called and every single light blueprint in the level starts to shine as the color of the sliced cube. They keep shine and change color until the user miss the cube. If the user miss the cube, "EndShine" function is called and every single light blueprint in the level ends to shine and turns into black.
+
 ### 5. Score
 
 #### 1) Assets
@@ -164,6 +166,8 @@ Finally, change the collision preset of the blade to "OverlapAll", and every tim
 - ScoreBlueprint
 
 #### 2) Blueprint
+
+There is only one custom event in the score blueprint, which is "AddScore". It is called whenever the slice function of the cube is called, and it simply adds the score by 1 and apply the result to the user interface.
 
 ## Phase 4: Testing and Refinement
 
