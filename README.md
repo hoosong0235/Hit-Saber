@@ -56,13 +56,49 @@ https://store.steampowered.com/app/620980/Beat_Saber/
 
 <!-- Test the VR project, gather feedback from peers, and apply refinements to ensure optimal audience engagement. -->
 
+<a href="https://youtu.be/1bJSK-3MMjY?si=UxJjdJHugrcuiEOT">Testing and Refinement 1</a><br>
+<a href="https://youtu.be/WyRjtOE3s9k?si=NGZiQilPCQFB1ERG">Testing and Refinement 2</a><br>
+<a href="https://youtu.be/ULakozg99vY?si=z6Mp2sO24LvQDIU3">Testing and Refinement 3</a><br>
+<a href="https://youtu.be/aUlHyvz5wyc?si=W6TUjX6S7xGxvNi_">Testing and Refinement 4</a><br>
+
 ## Phase 5: Demo
 
 <!-- Demo your project to the class, give and receive critical feedback to your peers. -->
 
+<div align="center">
+    <a href="https://youtu.be/aUlHyvz5wyc?si=x3WUbfo8tZx4KefE">
+        <img src="/ReadmeAssets/Thumbnail 1.png">
+    </a>
+</div>
+
 ## Phase 6: Documentation
 
 ### 1. How to Play
+
+#### 1) Hardware Requirement
+
+- Oculus Quest 2
+- CPU: Intel i5-4590 / AMD Ryzen 5 1500x
+- GPU: NVIDIA GTX 1050 Ti / AMD Radeon RX 470
+- RAM: 8GB
+- OS: Windows 10
+
+#### 2) Software Requirement
+
+- Oculus App
+- Steam
+- Steam VR
+- Unreal Engine 5.3
+
+#### 3) Instruction
+
+1. git clone https://github.com/hoosong0235/Hit-Saber.git
+2. Enjoy :)
+
+#### 4) Tutorial
+
+https://www.meta.com/ko-kr/help/quest/articles/headsets-and-accessories/oculus-link/connect-link-with-quest-2/  
+https://www.youtube.com/watch?v=Z4sClxhgsxk&t=359s
 
 ### 2. Reference
 
