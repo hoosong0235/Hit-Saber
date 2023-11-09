@@ -48,6 +48,19 @@ https://store.steampowered.com/app/620980/Beat_Saber/
 
 <!-- Craft storyboards that outline the narrative, seamlessly fusing visual and auditory elements. Begin constructing the VR environment within Unreal Engine. -->
 
+The BPM (Beats Per Minute) of the song "Beliver - Imagine Dragons" is 125. Therefore, We have to set the amount of delay as multiple of 60/125 seconds.
+
+https://songbpm.com/@imagine-dragons/believer
+
+We will build the world refer to the gameplay screenshot of the game "Beat Saber". The game will start at the empty level only with two lightsabers which are turned off. The song starts and the cubes begin to fly towards the user if and only if the user grab and turn on the two lightsabers.
+
+<div align="center">
+    <img src="/ReadmeAssets/Beat Saber 1.jpg" style="width: 20%">
+    <img src="/ReadmeAssets/Beat Saber 2.jpg" style="width: 20%">
+    <img src="/ReadmeAssets/Beat Saber 3.jpg" style="width: 20%">
+    <img src="/ReadmeAssets/Beat Saber 4.jpg" style="width: 20%">
+</div>
+
 ## Phase 3: VR Development
 
 <!-- Continue to Build and fine-tune your VR music experience, emphasizing user interactions and emotional resonance. -->
@@ -111,4 +124,5 @@ https://store.steampowered.com/app/620980/Beat_Saber/
 
 #### 3) Article
 
-https://en.wikipedia.org/wiki/Believer_%28Imagine_Dragons_song%29
+https://en.wikipedia.org/wiki/Believer_%28Imagine_Dragons_song%29  
+https://songbpm.com/@imagine-dragons/believer
