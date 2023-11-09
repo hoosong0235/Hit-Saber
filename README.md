@@ -122,6 +122,15 @@ https://store.steampowered.com/app/620980/Beat_Saber/
 
 #### 2) Video
 
+https://www.youtube.com/watch?v=Dzp4U94vIVY  
+https://www.youtube.com/watch?v=yIo1nF-BVqk  
+https://www.youtube.com/watch?v=0wKWoAFoqoo  
+https://www.youtube.com/watch?v=ptEGTxpZ1_M  
+https://www.youtube.com/watch?v=2I65tb73_wo  
+https://www.youtube.com/watch?v=EZwluOWmXTs&list=PL2QnxVoLRx4h4iye5VQq4RAaYR_ud6uoG  
+https://www.youtube.com/watch?v=YnPjL_jIjgk&list=PL2QnxVoLRx4iWibY5ZfuYi3E3CTifIDJD  
+https://www.youtube.com/watch?v=gh4k0Q1Pl7E
+
 #### 3) Article
 
 https://en.wikipedia.org/wiki/Believer_%28Imagine_Dragons_song%29  
