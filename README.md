@@ -65,6 +65,52 @@ We will build the world refer to the gameplay screenshot of the game "Beat Saber
 
 <!-- Continue to Build and fine-tune your VR music experience, emphasizing user interactions and emotional resonance. -->
 
+### 1. Cube
+
+#### 1) Assets
+
+- ColorEnumeration
+- CubeBlueprint
+- CubeMaterial
+- CubeMaterialBlack
+- CubeMaterialBlue
+- CubeMaterialRed
+- CubeMesh
+- DirectionEnumeration
+- DirectionMaterial
+
+### 2. Lane and Spawner
+
+#### 1) Assets
+
+- LaneBlueprint
+- SpawnerBlueprint
+
+### 3. Lightsaber
+
+#### 1) Assets
+
+- LightEnumeration
+- LightsaberBlueBlueprint
+- LightsaberRedBlueprint
+
+### 4. Floor and Light
+
+#### 1) Assets
+
+- FloorMaterial
+- FogBlueprint
+- LightBlueprint
+- LightEnumeration
+- RailMaterial
+- TempBlueprint
+
+### 5. Score
+
+#### 1) Assets
+
+- ScoreBlueprint
+
 ## Phase 4: Testing and Refinement
 
 <!-- Test the VR project, gather feedback from peers, and apply refinements to ensure optimal audience engagement. -->
