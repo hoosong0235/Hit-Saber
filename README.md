@@ -112,9 +112,13 @@ Whenever the "slice function" is called, there are some variety of following fun
 - LaneBlueprint
 - SpawnerBlueprint
 
-#### 2) Mesh and Material
+#### 2) Blueprint
 
-#### 3) Blueprint
+First, we have to implement "SpawnCube" function in the lane blueprint. It spawns a single cube at the location of itself and initializes the cube with given direction and color.
+
+Second, implement "SpawnCubeAt" function in the spawner blueprint. the spawner consists of tweleve lanes, three rows and four lanes per row. the function gets index, direction, and color as parameter, and executes "SpawnCube" function of the lane according to the given index.
+
+Third, make a preset of spawning cubes according to the BPM of the song. Since the BPM of the song is 125, we will delay 2 \* (60 / 125) seconds between each cube spawn event. We may make some arbitary fancy preset of spawning cubes, but in this project I choose to repetedly call the "SpawnCubeAt" function with random parameters with some correction. Correction prevents too difficult cube spawning consecutively.
 
 ### 3. Lightsaber
 
@@ -151,9 +155,7 @@ Finally, change the collision preset of the blade to "OverlapAll", and every tim
 - RailMaterial
 - TempBlueprint
 
-#### 2) Mesh and Material
-
-#### 3) Blueprint
+#### 2) Blueprint
 
 ### 5. Score
 
@@ -161,9 +163,7 @@ Finally, change the collision preset of the blade to "OverlapAll", and every tim
 
 - ScoreBlueprint
 
-#### 2) Mesh and Material
-
-#### 3) Blueprint
+#### 2) Blueprint
 
 ## Phase 4: Testing and Refinement
 
