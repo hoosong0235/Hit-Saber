@@ -120,13 +120,25 @@ Whenever the "slice function" is called, there are some variety of following fun
 
 #### 1) Assets
 
+- BladeMaterial
+- BladeMaterialBlack
+- BladeMaterialBlue
+- BladeMaterialRed
 - LightEnumeration
 - LightsaberBlueBlueprint
 - LightsaberRedBlueprint
 
 #### 2) Mesh and Material
 
+First, we have to create the mesh of blade. Create cylinder, manipulate the value of radius and length. Add the point light overlapping to the cylinder, manipulate the vlaue of source radius and source length so that we can have the effect of light is emmersing from the blade.
+
+Second, let's create the material of blade. Create four parameter named "Color", "Glow", "Exponentln", and "BaseReflectFractionln". They will decide the base color, degree of glowness, and parameter of fresnel effect of the material. Based on the default material named "BladeMaterial", we can create material instances named "BladeMaterialBlack", "BladeMaterialBlue", and "BladeMaterialRed". Manipulate each parameter suitably for each material instances.
+
 #### 3) Blueprint
+
+Third, we have to make the lightsaber grabbable and turnable. Add grabcomponent to static mesh handle and implement "TurnOn" and "TurnOff" function, each of which turns on and turns off the static mesh blade with some ease out dissolving effect using "FInterp To" funciton.
+
+Finally, change the collision preset of the blade to "OverlapAll", and every time the blade collider starts to overlap with the cube, call the slice function of the cube with current blade position and blade center position parameters. I've tried countless times with "OnComponentHit", not "OnComponentBeginOverlap". However, every time the user grabs the given actor, "VRPawn" blueprint attaches the child object (lightsaber) to the parent object (hand controller), so that the collider of the child is deactivated while it is attached to the parent until grab ends.
 
 ### 4. Floor and Light
 
